@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sambo</string>
+    <string name="next">Пропустить</string>
+    <string name="title_one">Узнавай новости\nиз мира самбо</string>
+    <string name="title_two">Учись у лучших\nспортсменов</string>
+    <string name="title_three">Стань частью\nсообщества</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prodol">Продолжить</string>
+</resources>
