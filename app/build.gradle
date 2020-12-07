@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 30
@@ -40,5 +41,9 @@ dependencies {
     //onBoard
     implementation 'com.google.android.material:material:1.2.1'
     implementation "androidx.viewpager2:viewpager2:1.0.0"
+
+    // for permission
+    implementation 'org.permissionsdispatcher:permissionsdispatcher:4.3.0'
+    kapt "org.permissionsdispatcher:permissionsdispatcher-processor:4.3.0"
 
 }

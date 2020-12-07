@@ -6,4 +6,27 @@
     <string name="title_three">Стань частью\nсообщества</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="prodol">Продолжить</string>
+    <string name="hello">Привет!\nТы тут впервые?</string>
+    <string name="registracia">Регистрация</string>
+    <string name="vxod">Вход</string>
+    <string name="parent">Родитель</string>
+    <string name="trening">Тренер</string>
+    <string name="rol">Выбери свою роль</string>
+    <string name="competition">Сореванования</string>
+    <string name="mainn">Главная</string>
+    <string name="curse">Курсы</string>
+    <string name="profile">Мой профиль</string>
+    <string name="textMain">Главная</string>
+    <string name="obuchenie">Обучение</string>
+    <string name="MyProfile">Мой профиль</string>
+    <string name="decsCompet">Из-за ковида соревнования на паузе:(\nСкоро они вернутся, а пока\nтренируйся вместе с нами онлайн!</string>
+    <string name="photo">Изменить\nфото</string>
+
+    <string name="selected_item">Selected item:</string>
+    <string-array name="Cities">
+        <item>Тема: Основы боевых искусств</item>
+        <item>Tokmok</item>
+        <item>New-York</item>
+    </string-array>
+
 </resources>

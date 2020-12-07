@@ -35,4 +35,5 @@ class SplashFragment : Fragment() {
         return sharedPref.getBoolean("Finished", false)
     }
 
+
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#1731C5"
-    tools:context=".ui.registration.HomeFragment">
+    tools:context=".ui.registration.RegistrationFragment">
 
     <ImageView
         android:id="@+id/image"
@@ -18,38 +18,47 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvFirst"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:lineSpacingExtra="5dp"
-        android:text="@string/hello"
+        android:text="@string/rol"
         android:textColor="@android:color/white"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnRegistration"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/btnSambo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btnRegistration"
+        android:id="@+id/btnSambo"
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/bg_button"
-        android:text="@string/registracia"
+        android:text="Самбист"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/btnIn"
+        app:layout_constraintBottom_toTopOf="@+id/btnTrening"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnIn"
+        android:id="@+id/btnTrening"
         android:layout_width="260dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="148dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/bg_button"
-        android:text="@string/vxod"
+        android:text="@string/trening"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnParent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnParent"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/parent"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
