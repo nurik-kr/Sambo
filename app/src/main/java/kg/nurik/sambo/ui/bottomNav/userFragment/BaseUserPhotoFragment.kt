@@ -1,4 +1,4 @@
-package kg.nurik.sambo.ui.main.userFragment
+package kg.nurik.sambo.ui.bottomNav.userFragment
 
 import android.Manifest
 import android.app.Activity
@@ -40,7 +40,9 @@ abstract class BaseUserPhotoFragment : Fragment() {
                 intent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
                 intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             } else intent.putExtra(MediaStore.EXTRA_OUTPUT, uri)
-            startActivityForResult(intent, RESULT_CAMERA)
+            startActivityForResult(intent,
+                RESULT_CAMERA
+            )
         }
     }
 
@@ -52,7 +54,9 @@ abstract class BaseUserPhotoFragment : Fragment() {
         )
 
         intent.type = "image/*"
-        startActivityForResult(intent, RESULT_GALLERY)
+        startActivityForResult(intent,
+            RESULT_GALLERY
+        )
 
     }
 

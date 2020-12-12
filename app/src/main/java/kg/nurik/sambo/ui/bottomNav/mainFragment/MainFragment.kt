@@ -1,4 +1,4 @@
-package kg.nurik.sambo.ui.main.mainFragment
+package kg.nurik.sambo.ui.bottomNav.mainFragment
 
 import kg.nurik.sambo.R
 import kg.nurik.sambo.base.BaseFragment

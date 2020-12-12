@@ -3,11 +3,11 @@ package kg.nurik.sambo.ui.main
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kg.nurik.sambo.R
-import kg.nurik.sambo.ui.main.viewPager.*
-import kg.nurik.sambo.ui.main.competitionFragment.CompetitionFragment
-import kg.nurik.sambo.ui.main.curseFragment.CurseFragment
-import kg.nurik.sambo.ui.main.mainFragment.MainFragment
-import kg.nurik.sambo.ui.main.userFragment.UserFragment
+import kg.nurik.sambo.ui.bottomNav.viewPager.*
+import kg.nurik.sambo.ui.bottomNav.competitionFragment.CompetitionFragment
+import kg.nurik.sambo.ui.bottomNav.curseFragment.CurseFragment
+import kg.nurik.sambo.ui.bottomNav.mainFragment.MainFragment
+import kg.nurik.sambo.ui.bottomNav.userFragment.UserFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 

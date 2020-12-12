@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.MainActivity">
 
-    <kg.nurik.sambo.ui.main.viewPager.CustomViewPager
+    <kg.nurik.sambo.ui.bottomNav.viewPager.CustomViewPager
         android:id="@+id/ViewPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"

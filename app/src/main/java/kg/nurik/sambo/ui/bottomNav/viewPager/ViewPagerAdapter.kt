@@ -1,4 +1,4 @@
-package kg.nurik.sambo.ui.main.viewPager
+package kg.nurik.sambo.ui.bottomNav.viewPager
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
