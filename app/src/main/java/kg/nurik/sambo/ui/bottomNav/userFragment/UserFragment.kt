@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.android.material.shape.CornerFamily
 import kg.nurik.sambo.R
 import kotlinx.android.synthetic.main.fragment_user.*
 import java.io.File
@@ -29,20 +30,17 @@ class UserFragment : BaseUserPhotoFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        imageCorners()
+        imageCorners()
         setupListener()
     }
 
-//    private fun imageCorners() {
-//        resources.getDimension(R.dimen.imageRadius)
-//        val shape = photoUser.shapeAppearanceModel.toBuilder()
-//            .setTopLeftCorner(CornerFamily.ROUNDED, 40f)
-//            .setTopRightCorner(CornerFamily.ROUNDED, 40f)
-//            .setBottomLeftCorner(CornerFamily.ROUNDED, 40f)
-//            .setBottomRightCorner(CornerFamily.ROUNDED, 40f)
-//            .build()
-//        photoUser.shapeAppearanceModel = shape
-//    }
+    private fun imageCorners() {
+        resources.getDimension(R.dimen.imageRadius)
+        val shape = photoUser.shapeAppearanceModel.toBuilder()
+            .setAllCorners(CornerFamily.ROUNDED,120f)
+            .build()
+        photoUser.shapeAppearanceModel = shape
+    }
 
     private fun setupListener() {
         tvIzmenitPhoto.setOnClickListener {
